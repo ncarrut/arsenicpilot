@@ -1,0 +1,207 @@
+cd .\python-container\
+ls
+docker run --rm -it ncarrut/pi-estimator:0.1 /bin/bash
+docker run --rm ncarrut/pi-estimator:0.1 which py.py
+docker run --rm ncarrut/pi-estimator:0.1 py.py 100
+docker run --rm ncarrut/pi-estimator:0.1 $PATH
+docker run --rm ncarrut/pi-estimator:0.1 cat $PATH
+ls
+D
+d:
+ls
+cd .\Documents\
+ls
+ls
+cd .\Analyses\
+cd .\dockerPilot\
+ls
+docker pull smithchemwisc/metamorpheus
+docker logout
+docker pull smithchemwisc/metamorpheus
+ls
+C
+c:
+ls
+cd '.\Program Files\'
+ls
+cd .\MetaMorpheus\
+ls
+.\CMD.exe
+CMD.exe
+docker ps -a
+docker stop 760b0be25a76
+docker rm 760b0be25a76
+sudo docker run -it --entrypoint /bin/bash jupyter/r-notebook:latest
+docker run -it --entrypoint /bin/bash jupyter/r-notebook:latest
+docker run -it -u root --entrypoint /bin/bash jupyter/r-notebook:latest
+cd ..
+ls
+cd .\dockerPilotII
+ls
+ls
+docker build .
+docker build .
+docker build .
+docker build .
+docker build .
+docker ls
+docker image ls
+docker rm 3e981e62221a
+docker image prune
+docker image ls
+docker ps -a
+docker container stop $ (docker container ls -aq)
+docker ps -a
+docker container rm $(dockewr container ls -aq)
+docker container rm $ (dockewr container ls -aq)
+docker container rm $(docker container ls -aq)
+docker image prune
+docker ps -a
+docker build -t ncarrut/dockerpilot . 
+docker build -t ncarrut/dockerpilot . 
+docker image ls
+cd ..
+cd dockerPilot
+ls
+cd data
+ls
+docker run --rm -p 10000:8888 -v "$PWD":/home/jovyan/work ncarrut/dockerpilot
+docker run --rm -p 10000:8888 -v "$PWD":/home/jovyan/work ncarrut/dockerpilot:latest
+docker image ls
+docker run -p 10000:8888 -v "$PWD":/home/jovyan/work ncarrut/dockerpilot:latest
+docker run -p 10000:8888 -v d:/Documents/Analysis/dockerPilot/data:/home/jovyan/work ncarrut/dockerpilot:latest
+docker run -p 8888:8888 -v d:/Documents/Analysis/dockerPilot/data:/home/jovyan/work ncarrut/dockerpilot:latest
+docker ps -a
+docker stop 51a243eca63f
+docker rm 51a243eca63f
+docker stop e6327f265f5d
+docker rm e6327f265f5d
+docker stop 8e30c2d22fd2
+docker rm 8e30c2d22fd2
+docker ps -a
+docker image prune
+docker image ls
+docker system prune -a
+docker image ls
+cd ..
+cd ..
+cd .\dockerPilotII
+docker build -t ncarrut/dockerpilot .
+docker run -p 8888:8888 -v d:/Documents/Analysis/dockerPilot/data:/home/jovyan/work ncarrut/dockerpilot:latest
+docker ps -a
+docker stop 1f075c6c23c5
+docker rm 1f075c6c23c5
+docker run -p 8888:8888 --mount src="D:\Documents\Analysis\dockerPilot\data",target=/test_container,type=bind ncarrut/dockerpilot:latest
+cd "D:\Documents\Analyses\dockerPilot\data"
+ls
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_container,type=bind ncarrut/dockerpilot:latest
+cd d:\Documents\Analyses\dockerPilotII
+docker ps -a
+docker stop ae846dfc9f7a
+docker rm ae846dfc9f7a
+docker stop 0f16e422965b
+docker rm 0f16e422965b
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind ncarrut/dockerpilot:latest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind ncarrut/dockerpilot:latest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind ncarrut/dockerpilot:latest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind ncarrut/dockerpilot:latest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker image prune
+docker image prune -a
+docker build -t ncarrut/dockerpilot .
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind ncarrut/dockerpilot:latest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 --mount src=D:\Documents\Analyses\dockerPilot\data"",target=/test_data,type=bind -e GRANT_SUDO=yes ncarrut/dockerpilot:latest 
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker image prune -a
+cd ..
+cd .\dockerPilotIII
+ls
+docker build -t ncarrut/pilotIII .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker build -t ncarrut/pilotiii .
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+cd ..
+cd .\dockerPilotII
+ls
+docker build -t ncarrut/pilot .
+docker run -it --entrypoint /bin/bash ncarrut/pilot
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run ncarrut/pilot
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 ncarrut/pilot
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker build -t ncarrut/pilottest .
+docker build -t ncarrut/pilottest .
+docker build -t ncarrut/pilottest .
+docker build -t ncarrut/pilottest .
+docker build -t ncarrut/pilottest .
+docker run -p 8888:8888 ncarrut/pilottest
+docker run -p 8888:8888 --user root ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 --user root ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source=d:/Documents/Analyses/dockerPilot/data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source="d:/Documents/Analyses/dockerPilot/data",destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source="d:\Documents\Analyses\dockerPilot\data",destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source=`d:\Documents\Analyses\dockerPilot\data`,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source='D:\Documents\Analyses\dockerPilot\data',destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount source=..\dockerPilot\data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount 'type=volume,source=..\dockerPilot\data,destination=/data' ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount 'type=volume,source=../dockerPilot/data,destination=/data' ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=tasks,destination=/data ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+ls ..dockerPilot/data
+ls ../dockerPilot/data
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=../dockerPilot/data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source="../dockerPilot/data",destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=d:/Documents/Analyses/dockerPilot/data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source="d:/Documents/Analyses/dockerPilot/data",destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source='d:/Documents/Analyses/dockerPilot/data',destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source='d:\Documents\Analyses\dockerPilot\data',destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=d:\Documents\Analyses\dockerPilot\data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source="d:\Documents\Analyses\dockerPilot\data",destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source="\Documents\Analyses\dockerPilot\data",destination=/data ncarrut/pilottest
+cd ..
+cd dockerPilot
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=data,destination=/data ncarrut/pilottest
+ls data
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=bind,source=data,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=data,destination=/data ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker volume create --name myDataVol
+docker run -v myDataVol:/data --name helper busybox true
+docker cp data helper:/data
+docker rm helper
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=myDataVol,destination=/data ncarrut/pilottest
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=myDataVol,destination=/data ncarrut/pilottest
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user root --mount type=volume,source=myDataVol,destination=/data ncarrut/pilottest
+ls
+Get-PSReadlineOption
